@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Code/">
+    <Project Path="Code/Aids/Aids.csproj" />
+    <Project Path="Code/Data/Data.csproj" />
+    <Project Path="Code/Infra/Infra.csproj" />
+    <Project Path="Code/Logic/Logic.csproj" />
+    <Project Path="Code/Razor/Razor.csproj" />
+  </Folder>
+  <Folder Name="/Soft/" />
+  <Folder Name="/Tests/" />
+</Solution>
