@@ -7,5 +7,10 @@
     <Project Path="Code/Razor/Razor.csproj" />
   </Folder>
   <Folder Name="/Soft/" />
-  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Aids/Tests.Aids.csproj" />
+    <Project Path="Tests/Data/Tests.Data.csproj" />
+    <Project Path="Tests/Infra/Tests.Infra.csproj" />
+    <Project Path="Tests/Logic/Tests.Logic.csproj" />
+  </Folder>
 </Solution>
