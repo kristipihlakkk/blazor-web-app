@@ -5,6 +5,8 @@
     <Project Path="Code/Infra/Infra.csproj" />
     <Project Path="Code/Logic/Logic.csproj" />
     <Project Path="Code/Razor/Razor.csproj" />
+    <Project Path="Domain/Domain.csproj" Id="c098c256-0908-4fff-a6c5-6f6a8f2ff1af" />
+    <Project Path="Jobs/Jobs.csproj" Id="0838ec9b-e90f-41a6-8072-2fc4f10704ed" />
   </Folder>
   <Folder Name="/Soft/" />
   <Folder Name="/Soft/Todo/">
