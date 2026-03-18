@@ -10,10 +10,12 @@
     <Project Path="Jobs/Jobs.csproj" Id="0838ec9b-e90f-41a6-8072-2fc4f10704ed" />
   </Folder>
   <Folder Name="/Soft/" />
+  <Folder Name="/Soft/App/" />
   <Folder Name="/Soft/Blazor/">
     <Project Path="Soft/Blazor/Client/Blazor.Client.csproj" />
     <Project Path="Soft/Blazor/Server/Blazor.csproj" />
   </Folder>
+  <Folder Name="/Soft/Maui/" />
   <Folder Name="/Soft/Movie/">
     <Project Path="Soft/Movie/Client/Movie.Client.csproj" />
     <Project Path="Soft/Movie/Server/Movie.csproj" />
@@ -21,6 +23,10 @@
   <Folder Name="/Soft/Todo/">
     <Project Path="Soft/Todo/Client/Todo.Client.csproj" />
     <Project Path="Soft/Todo/Server/Todo.csproj" />
+  </Folder>
+  <Folder Name="/Soft/Web/">
+    <Project Path="Soft/Web/Client/Web.Client.csproj" />
+    <Project Path="Soft/Web/Server/Web.csproj" />
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="Tests/Aids/Tests.Aids.csproj" />
