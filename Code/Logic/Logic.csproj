@@ -6,6 +6,7 @@
 	  <Nullable>disable</Nullable>
 	  <AssemblyName>Abc.Logic</AssemblyName>
 	  <RootNamespace>Abc.Logic</RootNamespace>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
 </Project>

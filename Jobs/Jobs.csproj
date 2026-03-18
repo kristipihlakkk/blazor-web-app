@@ -6,6 +6,11 @@
 	  <Nullable>disable</Nullable>
 	  <AssemblyName>Abc.Jobs</AssemblyName>
 	  <RootNamespace>Abc.Jobs</RootNamespace>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Code\Infra\Infra.csproj" />
+  </ItemGroup>
 
 </Project>
