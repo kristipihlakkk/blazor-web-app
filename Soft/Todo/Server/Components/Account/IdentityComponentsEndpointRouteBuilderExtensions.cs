@@ -1,6 +1,6 @@
-using Abc.Soft.Todo.Components.Account.Pages;
-using Abc.Soft.Todo.Components.Account.Pages.Manage;
-using Abc.Soft.Todo.Data;
+using Abc.Soft.Web.Components.Account.Pages;
+using Abc.Soft.Web.Components.Account.Pages.Manage;
+using Abc.Soft.Web.Data;
 using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;

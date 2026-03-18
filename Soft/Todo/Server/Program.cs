@@ -1,7 +1,7 @@
-using Abc.Soft.Todo.Client.Pages;
-using Abc.Soft.Todo.Components;
-using Abc.Soft.Todo.Components.Account;
-using Abc.Soft.Todo.Data;
+using Abc.Soft.Web.Client.Pages;
+using Abc.Soft.Web.Components;
+using Abc.Soft.Web.Components.Account;
+using Abc.Soft.Web.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -64,7 +64,7 @@ app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Abc.Soft.Todo.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(Abc.Soft.Web.Client._Imports).Assembly);
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();

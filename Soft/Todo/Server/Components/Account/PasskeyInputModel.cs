@@ -1,4 +1,4 @@
-namespace Abc.Soft.Todo.Components.Account
+namespace Abc.Soft.Web.Components.Account
 {
     public class PasskeyInputModel
     {

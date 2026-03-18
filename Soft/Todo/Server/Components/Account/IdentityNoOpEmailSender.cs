@@ -1,8 +1,8 @@
-using Abc.Soft.Todo.Data;
+using Abc.Soft.Web.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace Abc.Soft.Todo.Components.Account
+namespace Abc.Soft.Web.Components.Account
 {
     // Remove the "else if (EmailSender is IdentityNoOpEmailSender)" block from RegisterConfirmation.razor after updating with a real implementation.
     internal sealed class IdentityNoOpEmailSender : IEmailSender<ApplicationUser>

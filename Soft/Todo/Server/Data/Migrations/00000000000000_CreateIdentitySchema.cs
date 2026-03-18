@@ -3,7 +3,7 @@ using System;
 
 #nullable disable
 
-namespace Abc.Soft.Todo.Migrations
+namespace Abc.Soft.Web.Migrations
 {
     /// <inheritdoc />
     public partial class CreateIdentitySchema : Migration

@@ -1,8 +1,8 @@
-using Abc.Soft.Todo.Data;
+using Abc.Soft.Web.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Identity;
 
-namespace Abc.Soft.Todo.Components.Account
+namespace Abc.Soft.Web.Components.Account
 {
     internal sealed class IdentityRedirectManager(NavigationManager navigationManager)
     {
